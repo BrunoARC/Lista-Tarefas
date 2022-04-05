@@ -52,7 +52,7 @@ class TodoListItem extends StatelessWidget {
         ),
         endActionPane: ActionPane(
           extentRatio: 0.25,
-          motion: const StretchMotion(),
+          motion: const DrawerMotion(),
           children: [
             SlidableAction(
               autoClose: true,
